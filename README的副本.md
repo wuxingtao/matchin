@@ -1,10 +1,7 @@
-# vue-test
+实打实搜索# vue-test
 
 ## 介绍
 A vue test contains new api,new plugin,new cli
-
-## 安装
-`git@gitee.com:xingtao/vue-test.git --recursive`
 
 ### 目录
 
@@ -30,7 +27,7 @@ reference-git 目录：
 
 * mini-vue 用于vue3源码熟悉
 
-### 添加子模块
+### 添加子模块阿萨
 
 command line: `git submodule add -b [branch] git@***`
 
@@ -40,3 +37,11 @@ demo:
 ### 更新子模块
 `git submodule foreach git pull origin master`
 `git submodule foreach git pull origin main`
+
+
+`git clone https://gitlab.co`
+interface Aa{
+	name:string,
+	value: number
+}
+

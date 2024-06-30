@@ -1,0 +1,18 @@
+[submodule "vue-next-ts-test"]
+	path = vue-next-ts-test
+	url = git@github.com:wuxingtao/vue-next-ts-test.git
+[submodule "reference-git/mini-vue"]
+	path = reference-git/mini-vue
+	url = https://github.com/cuixiaorui/mini-vue.git
+[submodule "reference-git/micro-front-template"]
+	path = reference-git/micro-front-template
+	url = https://github.com/a1029563229/micro-front-template.git
+[submodule "reference-git/vue-next-ts-test"]
+	path = reference-git/vue-next-ts-test
+	url = git@github.com:wuxingtao/vue-next-ts-test.git
+[submodule "reference-git/vue-demi-test"]
+	path = reference-git/vue-demi-test
+	url = git@github.com:wuxingtao/vue-demi-test.git
+[submodule "reference-git/vue3-sketch-ruler"]
+	path = reference-git/vue3-sketch-ruler
+	url = https://github.com/kakajun/vue3-sketch-ruler.git
