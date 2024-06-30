@@ -1,0 +1,20 @@
+# extend .gitignore
+.DS_Store
+.vscode
+/node_modules
+dist
+newwebsite
+.idea/
+webstorm.config.js
+iconfont_online.css
+yarn.lock
+
+**/.git
+**/.hg
+
+# Ignore artifacts:
+build
+coverage
+
+# Ignore all HTML files:
+*.html

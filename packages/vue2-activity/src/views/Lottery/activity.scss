@@ -1,0 +1,143 @@
+@import './global.scss';
+.page__content{
+  position: absolute;
+  padding-left: vm(75);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 90%;
+  height: vm(883);
+  display: flex;
+  align-items: flex-end;
+}
+.gift__title{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: vm(155);
+  font-size: vm(60);
+  font-weight: 600;
+  color: #ffffff;
+  line-height: vm(75);
+  text-align: center;
+}
+.gift__btn{
+  width: vm(338);
+  height: vm(64);
+}
+.page__aside-img{
+  width: vm(1113);
+  height: vm(883);
+  position: relative;
+  .gift__bg{
+    width: 100%;
+    height: 100%;
+  }
+  .gift__img{
+    position: absolute;
+    bottom: vm(80);
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: vm(807);
+    height: vm(477);
+  }
+  img{
+    max-width:100%;
+  }
+}
+.page__right{
+  width: vm(896);
+  height: vm(711);
+  margin-left: vm(-150);
+  border-radius: vm(20);
+  background: linear-gradient(180deg,#ffeac1, #fbc76b);
+}
+.gift__box{
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.gift__content{
+  margin-left: vm(100);
+  height: 100%;
+  position: relative;
+}
+.gift__btn{
+  position: absolute;
+  bottom: vm(30);
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.code__list{
+  padding-top: vm(80);
+}
+
+.btn-disabled{
+  cursor: initial;
+}
+
+/* 活动抽奖动画 */
+.container-3d{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top:0;
+  bottom:0;
+  margin:auto;
+  background: rgba(0,0,0,.8);
+  z-index:99;
+  visibility: hidden;
+  &.show{
+    visibility: visible;
+  }
+}
+.container{
+  position: fixed;
+  -webkit-transform: perspective(1000px);
+  -moz-transform: perspective(1000px);
+  -ms-transform: perspective(1000px);
+  -o-transform: perspective(1000px);
+  transform: perspective(1000px);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-origin: center center;
+  -moz-transform-origin: center center;
+  -ms-transform-origin: center center;
+  -o-transform-origin: center center;
+  transform-origin: center center;
+  width: 70%;
+  height: 78%;
+  left:0;
+  right:0;
+  top: 0;
+  bottom:0;
+  min-height: 65vh;
+  margin:auto;
+  display: none;
+  vertical-align: middle;
+  z-index:100;
+  ::v-deep .element,.js_current_dom {
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -ms-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-color: #fff
+  }
+}
+.container-3d-close{
+  position: absolute;
+  bottom: vm(100);
+  right: vm(100);
+  font-size: 28px;
+  color: #ffffff;
+  cursor: pointer;
+}
