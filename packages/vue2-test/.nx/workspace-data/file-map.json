@@ -1,0 +1,200 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.4.1",
+  "deps": {
+    "@vue/composition-api": "^1.7.1",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.15.1",
+    "intersection-observer": "^0.12.2",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "prettier": "^2.2.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "12967344158281674234"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "15106504127723211212"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "5566485169167147856"
+      },
+      {
+        "file": "Note.md",
+        "hash": "1278120070816808412"
+      },
+      {
+        "file": "README.md",
+        "hash": "4371468331775700923"
+      },
+      {
+        "file": "babel.config.js",
+        "hash": "13599672231842889831"
+      },
+      {
+        "file": "dist1/css/app.a3abec1c.css",
+        "hash": "6738005606008060489"
+      },
+      {
+        "file": "dist1/favicon.ico",
+        "hash": "18282137866655320110"
+      },
+      {
+        "file": "dist1/img/logo.82b9c7a5.png",
+        "hash": "6600670850494142607"
+      },
+      {
+        "file": "dist1/index.html",
+        "hash": "9234194548068265663"
+      },
+      {
+        "file": "dist1/js/about.365a7c84.js",
+        "hash": "13183901035352472823"
+      },
+      {
+        "file": "dist1/js/about.365a7c84.js.map",
+        "hash": "825672595389251758"
+      },
+      {
+        "file": "dist1/js/app.bff7e402.js",
+        "hash": "12098477240491190738"
+      },
+      {
+        "file": "dist1/js/app.bff7e402.js.map",
+        "hash": "8163744110750613212"
+      },
+      {
+        "file": "dist1/js/chunk-2d2136fd.ed58feff.js",
+        "hash": "6596728663542636445"
+      },
+      {
+        "file": "dist1/js/chunk-2d2136fd.ed58feff.js.map",
+        "hash": "11362315243478881510"
+      },
+      {
+        "file": "dist1/js/chunk-vendors.7a8eea1f.js",
+        "hash": "14997405934385148586"
+      },
+      {
+        "file": "dist1/js/chunk-vendors.7a8eea1f.js.map",
+        "hash": "3674469757986762422"
+      },
+      {
+        "file": "package.json",
+        "hash": "10808871932921459898"
+      },
+      {
+        "file": "public/favicon.ico",
+        "hash": "18282137866655320110"
+      },
+      {
+        "file": "public/index.html",
+        "hash": "7083459581125745384"
+      },
+      {
+        "file": "src/App.vue",
+        "hash": "4135810370286673823"
+      },
+      {
+        "file": "src/assets/logo.png",
+        "hash": "6600670850494142607"
+      },
+      {
+        "file": "src/components/HelloWorld.vue",
+        "hash": "14807743982322178168"
+      },
+      {
+        "file": "src/components/column-filter/index.scss",
+        "hash": "4667041025190680339"
+      },
+      {
+        "file": "src/components/column-filter/index.vue",
+        "hash": "8206657141533242398"
+      },
+      {
+        "file": "src/components/index.js",
+        "hash": "1412407431884341901"
+      },
+      {
+        "file": "src/components/k-table/index.vue",
+        "hash": "18143349427519451293"
+      },
+      {
+        "file": "src/main.js",
+        "hash": "13895873306414134792"
+      },
+      {
+        "file": "src/router/index.js",
+        "hash": "3942018585380384012"
+      },
+      {
+        "file": "src/store/index.js",
+        "hash": "11932802921040098987"
+      },
+      {
+        "file": "src/views/About.vue",
+        "hash": "16921117409292756756"
+      },
+      {
+        "file": "src/views/Home.vue",
+        "hash": "2201669390576620887"
+      },
+      {
+        "file": "src/views/scroll-view-new/index-polyfill.vue",
+        "hash": "3216755906308999684"
+      },
+      {
+        "file": "src/views/scroll-view-new/index.vue",
+        "hash": "2958630250735581627"
+      },
+      {
+        "file": "src/views/scroll-view-new/useScrollView.js",
+        "hash": "11927768283849841860"
+      },
+      {
+        "file": "src/views/scroll-view/index.vue",
+        "hash": "5676204535144181200"
+      },
+      {
+        "file": "src/views/slot/child.vue",
+        "hash": "13618516754428151323"
+      },
+      {
+        "file": "src/views/slot/index.vue",
+        "hash": "12205942989476082398"
+      },
+      {
+        "file": "src/views/table-test/index.vue",
+        "hash": "10875309051744961004"
+      },
+      {
+        "file": "vue.config.js",
+        "hash": "3510938453717730068"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "17941416848654552477"
+      }
+    ]
+  }
+}
